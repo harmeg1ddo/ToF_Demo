@@ -1,15 +1,14 @@
 {
   "dependencies": {
     "com.google.ar.core.arfoundation.extensions": {
-      "version": "https://github.com/google-ar/arcore-unity-extensions.git",
+      "version": "file:G:/ToF/arcore-unity-extensions-1.39.0.tgz",
       "depth": 0,
-      "source": "git",
+      "source": "local-tarball",
       "dependencies": {
         "com.unity.xr.arfoundation": "4.1.5",
         "com.unity.xr.arcore": "4.1.5",
         "com.unity.xr.arkit": "4.1.5"
-      },
-      "hash": "55208a5317c2402e55ed7f931c16288d6a2b7756"
+      }
     },
     "com.unity.collab-proxy": {
       "version": "2.0.0",

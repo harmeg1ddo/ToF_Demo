@@ -35,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TofArSamplesAr/SamplesAr/StepOn/StepOn.unity
     guid: 9d183f7008d9b504f8345dd9f8255855
+  - enabled: 1
+    path: Assets/TofArSamplesAr/SamplesAr/HandPoseToEmoji/HandPoseEmoji.unity
+    guid: 62bc2c1973120d445b17e9097d50991f
+  - enabled: 1
+    path: Assets/TofArSamplesAr/SamplesAr/HandPoseMemoryGame/HandPoseMemoryGame.unity
+    guid: 956b98f4bcf9110428e22137f467ad8e
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4c519adb9815e984b83ed6c26006f352, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 7658a6ff01f331a46add99820560c39e, type: 2}

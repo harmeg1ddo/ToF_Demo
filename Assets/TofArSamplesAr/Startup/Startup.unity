@@ -375,7 +375,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1333313213}
   m_HandleRect: {fileID: 1333313212}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1252,12 +1252,20 @@ PrefabInstance:
       value: 8080
       objectReference: {fileID: 0}
     - target: {fileID: 6969947937388100638, guid: 62a8c1b0aa2ff744e8afbd417371a3e6, type: 3}
+      propertyPath: debugServerDevice
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6969947937388100638, guid: 62a8c1b0aa2ff744e8afbd417371a3e6, type: 3}
       propertyPath: debugServerIpAddress
-      value: 192.168.3.15
+      value: 192.168.100.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6969947937388100638, guid: 62a8c1b0aa2ff744e8afbd417371a3e6, type: 3}
+      propertyPath: enableNetworkDebugging
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6969947937388100638, guid: 62a8c1b0aa2ff744e8afbd417371a3e6, type: 3}
       propertyPath: serverConnectionTimeout
-      value: 15000
+      value: 10000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62a8c1b0aa2ff744e8afbd417371a3e6, type: 3}
@@ -1563,6 +1571,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -1802,27 +1811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
 --- !u!1 &1049744511
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,6 +2781,12 @@ MonoBehaviour:
     RequireTof: 1
   - SceneName: StepOn
     DisplayName: StepOn
+    RequireTof: 1
+  - SceneName: HandPoseEmoji
+    DisplayName: HandPoseEmoji
+    RequireTof: 1
+  - SceneName: HandPoseMemoryGame
+    DisplayName: HandPoseMemoryGame
     RequireTof: 1
 --- !u!4 &1715089974
 Transform:
