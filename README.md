@@ -117,6 +117,22 @@ The sample starts with plane recognition of the space.
 
 When hands or feet touch a wall or floor, animations of grass and flowers appearing is shown at the point of contact.
 
+### HandPoseEmoji - EKHWAN
+
+This was done as a base for the HandPoseMemoryGame. I wanted to see how the hand pose recognition was working.
+This scene recognizes the usr's current hand pose and displays the similar image on screen.
+
+<img src="/Images/HandPoseEmojiDisplay.png" width="500">
+
+### HandPoseMemoryGame - EKHWAN
+
+This is a memory based mini game.
+The game shows the user some hand poses and then asks the user to repeat those poses in the correct order.
+If the user does the poses correctly he gets points otherwise the user loses.
+
+<img src="/Images/HandPoseMemoryGame.png" width="500">
+
+
 <a name="component"></a>
 # Component
 
